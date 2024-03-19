@@ -49,3 +49,5 @@ console.log(stack.push(3));
 console.log(stack.push(1));
 console.log(stack.push(10));
 console.log(stack.pop());
+
+// best and worst case: O(1)
