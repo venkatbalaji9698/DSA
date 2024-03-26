@@ -19,10 +19,10 @@ function bubbleSort(arr) {
   return arr;
 }
 
-const ab = [];
-for (let i=100000; i>0; i--) {
-  ab.push(i);
-}
+// const arr = [];
+// for (let i=100000; i>0; i--) {
+//   arr.push(i);
+// }
+const arr = [3, -1, 11, 5, 1, 2, 4, 10];
 
-console.log(bubbleSort(ab));
-// console.log(bubbleSort([1, 2, 3, 5, 4]));
+console.log(bubbleSort(arr));

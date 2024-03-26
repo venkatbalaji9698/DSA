@@ -35,6 +35,6 @@ function quickSort(arr, startIndex, endIndex) {
 // for (let i = 8299; i > 0; i--) {
 //   arr.push(i);
 // }
-
 const arr = [3, -1, 11, 5, 1, 2, 4, 10];
+
 console.log(quickSort(arr, 0, arr.length - 1));

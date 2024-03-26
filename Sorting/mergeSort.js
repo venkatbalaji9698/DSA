@@ -71,7 +71,7 @@ function simplifiedMergeSort(arr) {
 // for (let i = 100000; i > 0; i--) {
 //   arr.push(i);
 // }
-
 const arr = [1, 2, 3, -1, 5, 4];
+
 console.log(simplifiedMergeSort(arr));
 // console.log(mergeSort(arr));
