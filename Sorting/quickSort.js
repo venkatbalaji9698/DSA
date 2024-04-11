@@ -26,8 +26,6 @@ function quickSort(arr, startIndex, endIndex) {
     quickSort(arr, startIndex, pivotIndex - 1);
     quickSort(arr, pivotIndex + 1, endIndex);
   }
-
-  return arr;
 }
 
 // below to test big data
@@ -36,5 +34,6 @@ function quickSort(arr, startIndex, endIndex) {
 //   arr.push(i);
 // }
 const arr = [3, -1, 11, 5, 1, 2, 4, 10];
-
-console.log(quickSort(arr, 0, arr.length - 1));
+quickSort(arr, 0, arr.length - 1)
+console.log(arr);
+// quickSort alters the original array
